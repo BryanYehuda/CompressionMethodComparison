@@ -19,7 +19,7 @@ def SNR(original, compressed):
   
 def main():
     original = cv2.imread("raw.png")
-    compressed = cv2.imread("lossless.png", 1)
+    compressed = cv2.imread("lossy.png", 1)
     mse = np.mean((original - compressed) ** 2)
     snr = SNR(original, compressed)
     psnr = PSNR(original, compressed)
