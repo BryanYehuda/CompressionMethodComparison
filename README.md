@@ -1,4 +1,4 @@
-# CompressionMethodComparison
+# Compression Method Comparison
 
 ## English
 This repository was created to accommodate MSE, SNR, and PSNR calculation codes to compare the Lossless and Lossy Compression Methods.
